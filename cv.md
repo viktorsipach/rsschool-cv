@@ -14,9 +14,9 @@
             return word.split("").reverse().join("");
          };
         
- Experience: [GitHub](http://github.com/viktorsipach/my_projects), [Codecodemy](http://codecodemy.com/5009358313).
+ Experience: [GitHub](http://github.com/viktorsipach/my_projects), [Codecademy](http://codecademy.com/5009358313).
 
- Education: [Codecodemy](http://codecodemy.com/5009358313), RSSchool.
+ Education: [Codecademy](http://codecademy.com/5009358313), RSSchool.
 
  English: A2 (Pre-Intermediate).
 
