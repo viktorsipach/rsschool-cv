@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif
+}
+
+.main {
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ 
+h2 {
+    text-align: center;
+}
+
+.main div {
+    margin: 0 auto;
+}
+
+li {
+    margin: 10px;
+}
+
+.func {
+    background-color: rgb(222, 228, 230);
+    margin: 0 auto;
+    padding: 12px;
+}
