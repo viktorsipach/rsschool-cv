@@ -1,4 +1,4 @@
-.main {
+.wrapper {
     margin: 0 auto;
     height: 100vh;
     width: 1024px;
@@ -8,46 +8,107 @@
     background-color: black;
     opacity: 0.9;
 }
-
-header {
-    display: flex;
-    flex-direction: row;
- }
-
-header div {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
+.contacts {
+    width: 340px;
+    margin-left: 30px;
 }
 
-header h1 {
+.contacts h3 {
+    width: 180px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: aqua;
+}
+
+.contacts {
+    margin-top: 10px;
+}
+    
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 703px;
+    margin-left: 340px;
+    margin-top: -390px;
+}
+
+.info h1 {
     font-size: 3em;
 }
 
-header h2 {
-    font-size: 1.5em;
+.info h2 {
+    font-size: 1.2em;
     margin: 10px;
     color: aqua;
 }
-header p {
+.info p {
     font-size: 1em;
     margin-top: 20px;
+    
 }
+
+.skills {
+    margin-top: 85px;
+    margin-bottom: 30px;
+}
+
+.skills h3 {
+    width: 180px;
+    margin-left: 260px;
+    font-size: 1.5em;
+    color: aqua;
+}
+
+.experience h3 {
+    width: 180px;
+    margin-left: 260px;
+    font-size: 1.5em;
+    color: aqua;
+}
+
 img {
     height: 280px;
     width: 280px;
     border-radius: 180px;
-    margin: 20px;
+    margin: 20px 20px 20px 0px;
     border: 2px solid aqua;
 }
 
+ul {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 170px;
+    margin-top: 20px;
+}
+
+li {
+    margin: 5px;
+    font-size: 0.8em;
+}
+
+i {
+    margin-right: 5px; 
+    color: aqua;
+}
+
+a {
+    color: aqua; 
+}
+
+a :hover {
+    color: blueviolet
+}
+
 @media (max-width: 860px) {
-    .main {
-        height: 100vh;
-        width: 100vw; 
+    .wrapper {
+        height: 165vh;
     }
-    header p {
-        margin-right: 10px;
+
+    .info p {
+        margin-right: 70px;
+        margin-left: 100px;
     }
 }
