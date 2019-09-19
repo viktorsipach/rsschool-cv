@@ -1,5 +1,10 @@
-.wrapper {
+body {
+    width: 1024px;
     margin: 0 auto;
+    
+}
+
+.wrapper {
     height: 100vh;
     width: 1024px;
     font-family: Helvetica,Arial,sans-serif;
@@ -13,6 +18,13 @@
     margin-left: 30px;
 }
 
+.contacts img {
+    height: 280px;
+    width: 280px;
+    border-radius: 180px;
+    margin: 20px 20px 20px 0px;
+    border: 2px solid aqua;
+}
 .contacts h3 {
     width: 180px;
     margin-bottom: 20px;
@@ -20,18 +32,24 @@
     color: aqua;
 }
 
-.contacts {
-    margin-top: 10px;
+.contacts p {
+    margin-bottom: 10px;
 }
-    
+
+.contacts i {
+    margin-right: 5px; 
+    color: aqua;
+    font-size: 0.8em;
+}
+
 .info {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width: 703px;
+    width: 700px;
     margin-left: 340px;
-    margin-top: -390px;
+    margin-top: -425px;
 }
 
 .info h1 {
@@ -48,7 +66,11 @@
     margin-top: 20px;
     
 }
-
+.info i {
+    margin-right: 5px; 
+    color: aqua;
+    font-size: 0.8em;
+}
 .skills {
     margin-top: 85px;
     margin-bottom: 30px;
@@ -61,22 +83,7 @@
     color: aqua;
 }
 
-.experience h3 {
-    width: 180px;
-    margin-left: 260px;
-    font-size: 1.5em;
-    color: aqua;
-}
-
-img {
-    height: 280px;
-    width: 280px;
-    border-radius: 180px;
-    margin: 20px 20px 20px 0px;
-    border: 2px solid aqua;
-}
-
-ul {
+.skills ul {
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -84,27 +91,42 @@ ul {
     margin-top: 20px;
 }
 
-li {
+.skills li {
     margin: 5px;
     font-size: 0.8em;
 }
 
-i {
-    margin-right: 5px; 
+.experience h3 {
+    width: 180px;
+    margin-left: 260px;
+    font-size: 1.5em;
     color: aqua;
 }
 
-a {
-    color: aqua; 
+.experience ul {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 170px;
+    margin-top: 20px;
 }
 
-a :hover {
-    color: blueviolet
+.experience li {
+    margin: 5px;
+    font-size: 0.8em;
+}
+
+.experience ul li a {
+    color: seashell; 
+}
+
+.experience ul li a :hover {
+    color: yellow;
 }
 
 @media (max-width: 860px) {
     .wrapper {
-        height: 165vh;
+        height: 100vh;
     }
 
     .info p {
