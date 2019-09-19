@@ -1,0 +1,136 @@
+body {
+    width: 1024px;
+    margin: 0 auto;
+    
+}
+
+.wrapper {
+    height: 100vh;
+    width: 1024px;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+.contacts {
+    width: 340px;
+    margin-left: 30px;
+}
+
+.contacts img {
+    height: 280px;
+    width: 280px;
+    border-radius: 180px;
+    margin: 20px 20px 20px 0px;
+    border: 2px solid aqua;
+}
+.contacts h3 {
+    width: 180px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: aqua;
+}
+
+.contacts p {
+    margin-bottom: 10px;
+}
+
+.contacts i {
+    margin-right: 5px; 
+    color: aqua;
+    font-size: 0.8em;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 700px;
+    margin-left: 340px;
+    margin-top: -425px;
+}
+
+.info h1 {
+    font-size: 3em;
+}
+
+.info h2 {
+    font-size: 1.2em;
+    margin: 10px;
+    color: aqua;
+}
+.info p {
+    font-size: 1em;
+    margin-top: 20px;
+    
+}
+.info i {
+    margin-right: 5px; 
+    color: aqua;
+    font-size: 0.8em;
+}
+.skills {
+    margin-top: 85px;
+    margin-bottom: 30px;
+}
+
+.skills h3 {
+    width: 180px;
+    margin-left: 260px;
+    font-size: 1.5em;
+    color: aqua;
+}
+
+.skills ul {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 170px;
+    margin-top: 20px;
+}
+
+.skills li {
+    margin: 5px;
+    font-size: 0.8em;
+}
+
+.experience h3 {
+    width: 180px;
+    margin-left: 260px;
+    font-size: 1.5em;
+    color: aqua;
+}
+
+.experience ul {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 170px;
+    margin-top: 20px;
+}
+
+.experience li {
+    margin: 5px;
+    font-size: 0.8em;
+}
+
+.experience ul li a {
+    color: seashell; 
+}
+
+.experience ul li a :hover {
+    color: yellow;
+}
+
+@media (max-width: 860px) {
+    .wrapper {
+        height: 100vh;
+    }
+
+    .info p {
+        margin-right: 70px;
+        margin-left: 100px;
+    }
+}
